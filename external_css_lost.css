@@ -1,0 +1,102 @@
+body{
+    
+    background-image:url(lost.jpg);
+    background-color:#56776c;
+    background-blend-mode: luminosity;
+    background-repeat:no-repeat;
+    color:#464f41;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+    background-size: cover;
+    text-align: center;
+}
+.right {
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+table{
+border: 1px solid black;
+border-collapse: collapse;
+width:60%;
+border-color:black;
+font-size: 20px;
+
+}
+
+td {
+  text-align: center;
+}
+tr{
+    background-color: #b8d5cd;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+td,th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #006a4e;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+h2{
+  color: #464f41;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.logout {
+    text-align: right;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:20px;
+    
+}
+
+.textlost{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size:26px;
+    
+}
+
+.works{
+    
+  border-radius: 30px;
+  width: 470px;
+  border: 5px solid #464f41;
+  background-color: #56776c;
+  color:white;
+  margin-left: 40%;
+}
+#btn,#del{
+    border-radius: 5px;
+    background-color:#464f41;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+}
+
+#item,#desc{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+}

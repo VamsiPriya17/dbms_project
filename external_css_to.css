@@ -1,0 +1,80 @@
+body{
+    background-image:url('tobg.jpg');
+    background-size:cover;
+    color:white;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#assgn,#dt{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+#btn,#del{
+    border-radius: 5px;
+    background-color:#29496D;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+table{
+border: 1px solid black;
+border-collapse: collapse;
+width:60%;
+border-color:black;
+font-size: 20px;
+
+}
+
+td {
+  text-align: center;
+  color: #11112b;
+}
+tr{
+    background-color: #B9C9D4;
+}
+
+td,th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color:#29496D;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.left {
+    margin-left: 0px;
+    margin-right: auto;
+}
+.works{
+  border-radius: 30px;
+  width: 500px;
+  border: 5px solid #29496D;
+  background-color: #2B7D7C;
+  color:white;
+  padding: 20px;
+}
+.logout {
+    text-align: right;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size:20px;
+    color:white;
+    
+}

@@ -1,0 +1,58 @@
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text{
+    text-align:center;
+    color: white;
+    
+}
+#btn,#btn1{
+    border-radius: 5px;
+    background-color:#464f41;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+}
+#user,#name,#brnch{
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px;
+}
+
+body{
+    background-color:#bfcba8;
+    color:#464f41;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 25px;
+    background-image: url(qanda.jpg);
+    background-blend-mode: luminosity;
+    opacity:2;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative; 
+    overflow-y: visible;
+    overflow-x: visible;
+}
+a{
+    color:white;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #464f41; 
+  border-radius: 5px;
+}
+
+

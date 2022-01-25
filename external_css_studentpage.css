@@ -1,0 +1,94 @@
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 1.5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  background-color: #464f41;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.grid-container {
+  display: grid;
+  color: white;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  grid-column-gap: 10px; 
+  grid-row-gap: 10px;
+} 
+.b1,.b2,.b3,.b4,.b5,.b6{
+  padding: 10px;
+  height: 300px; 
+  grid: area;
+}
+
+.b1 { grid-area: 1 / 1 / span 1 / span 1;}
+.b2 { grid-area: 1 / 2 / span 1 / span 1; }
+.b3 { grid-area: 1 / 3 / span 1 / span 1; }
+.b4 { grid-area: 2 / 1 / span 1 / span 1;}
+.b5 { grid-area: 2 / 2 / span 1 / span 1; }
+.b6 { grid-ares: 2 / 3 / span 1 / span 1; }
+.b1,.b2,.b3,.b4,.b5,.b6 {
+  box-sizing: border-box;
+}
+
+.b1:hover,.b2:hover,.b3:hover,.b4:hover,.b5:hover,.b6:hover
+{
+    transform:scale(1.05);
+}
+
+.b1:hover .image,.b2:hover .image,.b3:hover .image,.b4:hover .image,.b5:hover .image,.b6:hover .image{
+  opacity: 0.3;
+}
+
+.b1:hover .middle,.b2:hover .middle,.b3:hover .middle,.b4:hover .middle,.b5:hover .middle,.b6:hover .middle{
+  opacity: 1;
+}
+
+
+body {
+  font-family: "Lucida Console", "Courier New", monospace;
+  background-color: #eeebdd;
+}
+
+body .middle{
+    display: none;
+}
+/* Style the header */
+.logout {
+    text-align: right;
+}
+.header {
+  text-align: left;
+  color :#464f41;
+  font-size: 35px;
+}
+
+.links {
+    color: white;
+}
+
+/* The grid container */
+
+a{
+    text-decoration: none;
+    color:#464f41;
+    font-size: 20px;
+}
